@@ -72,3 +72,4 @@ Al igual que el CSS tenemos 3 formas de poner JavaScript en HTML
 
 	<script src="js/myscript.js"></script>
 ```
+### 3.asdiufh
