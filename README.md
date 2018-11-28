@@ -74,5 +74,10 @@ Al igual que el CSS tenemos 3 formas de poner JavaScript en HTML
 ```
 ## Que diferencia hay entre una clase y una ID
 ```html
-Una ID se usa mas para declarar un elemento único, en cambio una clase se puede ir repitiendo para varios elementos.
+Una ID esta pensada para que el elemento que selecciones sea único, sin embargo las clases estan pensadas para definir el mismo estilo en varios elementos.
+Por ejemplo no puedes asignarle un ID a varios elementos de la pagina, en cambio con una clase puedes asignar una misma clase a varios elementos.
+```
+## Codigo para que un enlace sea abierto en una página nueva
+```html
+	<a href="documento.html" target="_blank">Enlace</a>
 ```
