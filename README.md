@@ -29,3 +29,26 @@
 
 	<link rel="stylesheet" type="text/css" href="index.css" />
 ```
+## Crear una lista sin ordenar con 5 ingredientes de una receta de cocina
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5 Ingredientes de Cocina</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<ul>
+		<li>Huevos</li>
+		<li>Leche</li>
+		<li>Aceite</li>
+		<li>Agua</li>
+		<li>Sal</li>
+	</ul>
+</body>
+</html>
+```
+## Como se puede incluir JavaScript en html
+```html
+
+```
