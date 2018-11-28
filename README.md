@@ -72,4 +72,7 @@ Al igual que el CSS tenemos 3 formas de poner JavaScript en HTML
 
 	<script src="js/myscript.js"></script>
 ```
-### 3.asdiufh
+## Que diferencia hay entre una clase y una ID
+```html
+Una ID se usa mas para declarar un elemento único, en cambio una clase se puede ir repitiendo para varios elementos.
+```
