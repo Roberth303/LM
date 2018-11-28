@@ -81,3 +81,21 @@ Por ejemplo no puedes asignarle un ID a varios elementos de la pagina, en cambio
 ```html
 	<a href="documento.html" target="_blank">Enlace</a>
 ```
+## Que son las pseudoclases, y ejemplos
+```html
+	Las pseudoclases son palabras claves que se añaden a los selectores, con el se pueden cambiar las propiedades del estado especial del selector.
+Ejemplos:
+	p:hover {
+		background-color: #F89B4D;
+	}
+*Cuando el ratón este encima del párrafo este cambiara de color.
+
+	a:visited {
+		color: blue;
+	}
+*Si en enlace ya ha sido visitado el color de este ahora sera azul.
+```
+## Explicación de los modelos de caja CSS (Margin, Border, Padding)
+```html
+
+```
