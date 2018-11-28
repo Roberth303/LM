@@ -50,5 +50,25 @@
 ```
 ## Como se puede incluir JavaScript en html
 ```html
+Al igual que el CSS tenemos 3 formas de poner JavaScript en HTML
 
+1. Lo metemos en el Head del HTML con las siguientes etiquetas:
+
+	<script> "Aqui dentro va el código de JavaScript" </script>
+
+2. Directamente en el Body:
+
+	<body>
+	<script>
+		let d = new Date();
+		document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
+		"</h1>"
+	</script>
+	</body>
+
+*Esto código JV nos da la hora.
+
+3. Poner el JV en un archivo externo y enlazarlo al HTML:
+
+	<script src="js/myscript.js"></script>
 ```
