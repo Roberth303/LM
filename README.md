@@ -103,3 +103,23 @@ La propiedad Border permiten especificar el estilo, la anchura y el color del bo
 
 La propiedad Padding(Relleno) define un espaciado entre el borde y el contenido.
 ```
+## Explica que son los selectores de CSS y pon ejemplos
+```html
+Los selectores definen sobre qué elementos se aplicará un conjunto de reglas.
+
+* {
+  margin: 0;
+  padding: 0;
+}
+//se utiliza para seleccionar todos los elementos de la pagina.
+
+p {
+  ...
+}
+//Selecciona todas las etiquetas de tipo parrafo(<p>)
+	
+p span {
+color: red; 
+}
+//Selecciona los span dentro de p
+```
