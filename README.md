@@ -97,5 +97,9 @@ Ejemplos:
 ```
 ## Explicación de los modelos de caja CSS (Margin, Border, Padding)
 ```html
+La propiedad Margin(margen) Crea un espacio entre el objeto y los objetos que lo rodean, fuera del borde.
 
+La propiedad Border permiten especificar el estilo, la anchura y el color del borde del elemento.
+
+La propiedad Padding(Relleno) define un espaciado entre el borde y el contenido.
 ```
