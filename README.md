@@ -123,3 +123,12 @@ color: red;
 }
 //Selecciona los span dentro de p
 ```
+## Di a quien afectan los siguientes selectores
+````html
+p a { color: red; } //Afecta a todos los enlaces que hayan dentro de los parrafos\\
+p > a { color: red; } //Afecta a tofos los enlaces que sean hijos directos de parrafos\\
+h1 + h2 { color: red } //Afecta a los h2 adyacentes de h1\\
+a[class] { color: blue; } //Afecta a todos los class\\
+a[class="externo"] { color: blue; } //Afecta a todos los class que sean "externo"\\
+a[href="http://www.ejemplo.com"] { color: blue; } //Afecta a todos los enlaces web que tengan dicha direccion\\
+````
