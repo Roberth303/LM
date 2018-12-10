@@ -7,7 +7,7 @@ para aplicaciones web.
 Una aplicación Electron básica consiste en al menos tres archivos: package.json (metadatos),
 main.js (código) y index.html (GUI)
 ```
-Se puede obtener a traves de su página oficial {https://electronjs.org/}
+Se puede obtener a traves de su página oficial https://electronjs.org/
 
 ## 2.Flexbox
 ```html
