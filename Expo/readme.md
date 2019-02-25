@@ -1,3 +1,3 @@
 ```html
-Abrir con Draw.io
+Fitt_app se abre con Draw.io
 ```
