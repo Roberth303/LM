@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IMM</title>
+</head>
+<body>
+	<input type="text" name="1" id="peso" value="Peso">
+	<input type="text" name="2" id="altura" value="Altura">
+	<input type="button" name="3" id="calcula" value="Calcula">
+	<input type="text" name="4" id="IMM" >
+
+	<script type="text/javascript">
+		
+		document.getElementById("calcula").addEventListener("click", calcularMM);
+
+		function calcularMM() {
+			var x=document.getElementById("peso").value;
+			var y=document.getElementById("altura").value;
+
+			var resultado=x/(y*y);
+			document.getElementById("IMM").value=resultado;
+		}
+
+	</script>
+</body>
+</html>
