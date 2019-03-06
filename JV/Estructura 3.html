@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Estructura 3</title>
+
+	<style type="text/css">
+		body {
+			background-color: lightblue;
+			display: flex;
+			justify-content: center;
+		}
+		.bodyContainer {
+			width: 600px;
+			background-color: white;
+			padding: 45px;
+			border: outset 5px lightgrey;
+			border-radius: 10px;
+		}
+		.headerContent {
+			border-bottom: solid 2px grey;
+		}
+		.headerContent > h1 {
+			text-align: center;
+			margin-top: 0px;
+		}
+		.addOn {
+			height: 250px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		h3 {
+			margin-bottom: 0px;
+		}
+		.addOn1 {
+			display: flex;
+
+		}
+		.addOn2 {
+			display: flex;
+			flex-direction: row-reverse;
+		}
+		.addOn3 {
+			display: flex;
+		}
+		.addOn > button {
+			width: 100px;
+			height: 55px;
+			align-self: center;
+			border-radius: 10px;
+			border:hidden;
+			background-color: lightblue;
+			font-weight: 900;
+		}
+		input {
+			width: 100%;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="bodyContainer">
+		<div class="headerContent">
+			<h1>Estructura 3</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus mattis molestie. Orci dapibus ultrices in iaculis nunc sed augue. Blandit massa enim nec dui nunc mattis enim. Ornare massa eget egestas purus viverra. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Lacinia quis vel eros donec. Lectus sit amet est placerat in. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui. Massa sapien faucibus et molestie. Augue ut lectus arcu bibendum at varius vel pharetra. Amet nisl purus in mollis nunc sed id semper risus. Elit duis tristique sollicitudin nibh sit. Nibh tellus molestie nunc non blandit massa enim. Interdum velit euismod in pellentesque massa placerat duis. Sed velit dignissim sodales ut. Arcu ac tortor dignissim convallis. Tempus egestas sed sed risus pretium quam vulputate dignissim. Integer feugiat scelerisque varius morbi enim nunc faucibus a.</p>
+		</div>
+		<div class="addOn">
+			<h3>Tipos de Add-on Con flexBox</h3>
+
+			<div class="addOn1">
+				<button>Add-On 1</button>
+				<input type="text" name="Ejemplo">
+			</div>
+
+			<div class="addOn2">
+				<button>Add-On 2</button>
+				<input type="text" name="Ejemplo">
+
+			</div>
+
+			<div class="addOn3">
+				<button>Add-On 3</button>
+				<input type="text" name="Ejemplo">
+				<button>Submit</button>
+			</div>
+			<button>Volver atras</button>
+		</div>
+		
+
+	</div>
+
+</body>
+</html>
