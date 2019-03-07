@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Estructura 2</title>
+	<style type="text/css">
+		body {
+			padding: 0px;
+			margin: 0px;
+		}
+		
+		.headContainer {
+			background-color: lightblue;
+			display: flex;
+			justify-content: space-between;
+			padding: 20px;
+		}
+		button {
+			color: white;
+			background-color: grey;
+		}
+		#blanco {
+			color: white;
+
+		}
+		.bodyContainer {
+			display: flex;
+			justify-content: space-between;
+		}
+		.bodyContainer aside {
+			width: 1000px;
+			text-align: center;
+		}
+		.cuerpo{
+			border-left: solid 1px grey;
+			border-right: solid 1px grey;
+		}
+	</style>
+</head>
+<body>
+	<div class="headContainer">
+		<aside id="blanco">Estructura 2</aside>
+		<aside>
+			<button>Home</button>
+			<button>Products</button>
+			<button>Career</button>
+			<button>About</button>
+		</aside>
+	</div>
+
+	<div class="bodyContainer">
+		<aside>
+			Izquierda
+		</aside>
+		<div class="cuerpo">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+		</div>
+		<aside>
+			Derecha
+		</aside>
+
+	</div>
+
+
+</body>
+</html>
